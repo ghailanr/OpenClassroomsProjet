@@ -1,0 +1,16 @@
+Modèle simple (regression logistique)
+Modèle complexe (Deep NN)
+
+Pour DeepNN:
+	-Deux word embeddings différents et garder les meilleures perfs
+	-Influence de BERT
+	
+Démarche orientée MLOps:
+	-Qu'est-ce que MLOps ? (présentation synthétique des principes et apports)
+	-MLFlow ? 
+	-Pipeline de déploiement continu du modèle avec tests unitaires
+	-Service Azure Application Insight de suivi des performances du modèle (prédictions fausses, déclenchement d'alertes en cas d'un trop grand nombre d'erreurs de prédiction)
+	-Présenter une démarche pour analyser ces statistiques et améliorer le modèle dans le temps.
+
+Utiliser une solution gratuite de Cloud (Azure Webapp, PythonAnywhere, Heroku (package "student" de github), etc)
+Si modèle trop lourd pour les solutions gratuites, tester le déploiement avec le modèle classique ou utiliser des techniques de réduction de taille (TensorFlow-Keras via conversion en TensorFlow Lite).
